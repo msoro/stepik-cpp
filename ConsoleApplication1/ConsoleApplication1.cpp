@@ -7,10 +7,15 @@ using namespace std;
 int main()
 {
     // cout << "Hello World!\n";
-	int a, b;
-	cin >> a >> b;
-	cout << a << " + " << b << " = ";
-	cout << a + b;
+	// int a, b;
+	// cin >> a >> b;
+	// cout << a << " + " << b << " = ";
+	// cout << a + b;
+
+	// Последняя цифра введенного числа
+	int a;
+	cin >> a;
+	cout << (a % 10);
 	return 0;
 }
 
